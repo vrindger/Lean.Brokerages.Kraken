@@ -539,7 +539,7 @@ namespace QuantConnect.Brokerages.Kraken
 
             WebSocket.Open += (sender, args) => { SubscribeAuth(); };
 
-            ValidateSubscription();
+//            ValidateSubscription();
         }
 
         /// <summary>
